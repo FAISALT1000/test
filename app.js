@@ -8,7 +8,7 @@ class Person{
     }
     
 }
-// Customer is sub class of Person
+// Customer is sub class of Persons
 class Customer extends Person{
     constructor(firstName,lastName,phone,membership){
        super(firstName,lastName);
@@ -24,4 +24,4 @@ class Customer extends Person{
 const john=new Customer('John','Doe','555-555-777','standerd');
 console.log(john.greeting());
 
-console.log(Customer.getMembershipCost());
+console.log(Customer.getMembershipCost()); 
